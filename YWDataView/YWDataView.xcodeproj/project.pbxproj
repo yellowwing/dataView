@@ -8,14 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		FDA37F4F23A0CAD3000DADED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F4E23A0CAD3000DADED /* AppDelegate.m */; };
-		FDA37F5223A0CAD3000DADED /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F5123A0CAD3000DADED /* SceneDelegate.m */; };
-		FDA37F5523A0CAD3000DADED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F5423A0CAD3000DADED /* ViewController.m */; };
-		FDA37F5823A0CAD3000DADED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA37F5623A0CAD3000DADED /* Main.storyboard */; };
 		FDA37F5A23A0CAD4000DADED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA37F5923A0CAD4000DADED /* Assets.xcassets */; };
 		FDA37F5D23A0CAD4000DADED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA37F5B23A0CAD4000DADED /* LaunchScreen.storyboard */; };
 		FDA37F6023A0CAD4000DADED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F5F23A0CAD4000DADED /* main.m */; };
 		FDA37F6A23A0CAD4000DADED /* YWDataViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F6923A0CAD4000DADED /* YWDataViewTests.m */; };
 		FDA37F7523A0CAD4000DADED /* YWDataViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F7423A0CAD4000DADED /* YWDataViewUITests.m */; };
+		FDA37F8B23A0D884000DADED /* TwoArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F8623A0D884000DADED /* TwoArcView.m */; };
+		FDA37F8C23A0D884000DADED /* ArcView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F8823A0D884000DADED /* ArcView.m */; };
+		FDA37F8D23A0D884000DADED /* QuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F8923A0D884000DADED /* QuartzView.m */; };
+		FDA37F9123A0D8A5000DADED /* YWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F8F23A0D8A5000DADED /* YWViewController.m */; };
+		FDA37F9223A0D8A5000DADED /* YWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDA37F9023A0D8A5000DADED /* YWViewController.xib */; };
+		FDA37F9E23A0DA05000DADED /* StringSize.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F9523A0DA05000DADED /* StringSize.m */; };
+		FDA37F9F23A0DA05000DADED /* UIImage+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F9923A0DA05000DADED /* UIImage+MJ.m */; };
+		FDA37FA023A0DA05000DADED /* ExtensionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F9A23A0DA05000DADED /* ExtensionButton.m */; };
+		FDA37FA123A0DA05000DADED /* UIImage+YW.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F9B23A0DA05000DADED /* UIImage+YW.m */; };
+		FDA37FA223A0DA05000DADED /* YWTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F9D23A0DA05000DADED /* YWTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +46,6 @@
 		FDA37F4A23A0CAD3000DADED /* YWDataView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWDataView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA37F4D23A0CAD3000DADED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FDA37F4E23A0CAD3000DADED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FDA37F5023A0CAD3000DADED /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		FDA37F5123A0CAD3000DADED /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		FDA37F5323A0CAD3000DADED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FDA37F5423A0CAD3000DADED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FDA37F5723A0CAD3000DADED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDA37F5923A0CAD4000DADED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDA37F5C23A0CAD4000DADED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDA37F5E23A0CAD4000DADED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +56,25 @@
 		FDA37F7023A0CAD4000DADED /* YWDataViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWDataViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA37F7423A0CAD4000DADED /* YWDataViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWDataViewUITests.m; sourceTree = "<group>"; };
 		FDA37F7623A0CAD4000DADED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA37F8523A0D884000DADED /* ArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcView.h; sourceTree = "<group>"; };
+		FDA37F8623A0D884000DADED /* TwoArcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoArcView.m; sourceTree = "<group>"; };
+		FDA37F8723A0D884000DADED /* QuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzView.h; sourceTree = "<group>"; };
+		FDA37F8823A0D884000DADED /* ArcView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcView.m; sourceTree = "<group>"; };
+		FDA37F8923A0D884000DADED /* QuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzView.m; sourceTree = "<group>"; };
+		FDA37F8A23A0D884000DADED /* TwoArcView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoArcView.h; sourceTree = "<group>"; };
+		FDA37F8E23A0D8A5000DADED /* YWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWViewController.h; sourceTree = "<group>"; };
+		FDA37F8F23A0D8A5000DADED /* YWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWViewController.m; sourceTree = "<group>"; };
+		FDA37F9023A0D8A5000DADED /* YWViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YWViewController.xib; sourceTree = "<group>"; };
+		FDA37F9423A0DA05000DADED /* UIImage+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MJ.h"; sourceTree = "<group>"; };
+		FDA37F9523A0DA05000DADED /* StringSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringSize.m; sourceTree = "<group>"; };
+		FDA37F9623A0DA05000DADED /* UIImage+YW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YW.h"; sourceTree = "<group>"; };
+		FDA37F9723A0DA05000DADED /* ExtensionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionButton.h; sourceTree = "<group>"; };
+		FDA37F9823A0DA05000DADED /* YWTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWTool.h; sourceTree = "<group>"; };
+		FDA37F9923A0DA05000DADED /* UIImage+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MJ.m"; sourceTree = "<group>"; };
+		FDA37F9A23A0DA05000DADED /* ExtensionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtensionButton.m; sourceTree = "<group>"; };
+		FDA37F9B23A0DA05000DADED /* UIImage+YW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YW.m"; sourceTree = "<group>"; };
+		FDA37F9C23A0DA05000DADED /* StringSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringSize.h; sourceTree = "<group>"; };
+		FDA37F9D23A0DA05000DADED /* YWTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,13 +125,10 @@
 		FDA37F4C23A0CAD3000DADED /* YWDataView */ = {
 			isa = PBXGroup;
 			children = (
+				FDA37F8223A0D884000DADED /* Quartz2D */,
 				FDA37F4D23A0CAD3000DADED /* AppDelegate.h */,
 				FDA37F4E23A0CAD3000DADED /* AppDelegate.m */,
-				FDA37F5023A0CAD3000DADED /* SceneDelegate.h */,
-				FDA37F5123A0CAD3000DADED /* SceneDelegate.m */,
-				FDA37F5323A0CAD3000DADED /* ViewController.h */,
-				FDA37F5423A0CAD3000DADED /* ViewController.m */,
-				FDA37F5623A0CAD3000DADED /* Main.storyboard */,
+				FDA37F9323A0DA05000DADED /* Category */,
 				FDA37F5923A0CAD4000DADED /* Assets.xcassets */,
 				FDA37F5B23A0CAD4000DADED /* LaunchScreen.storyboard */,
 				FDA37F5E23A0CAD4000DADED /* Info.plist */,
@@ -135,6 +153,55 @@
 				FDA37F7623A0CAD4000DADED /* Info.plist */,
 			);
 			path = YWDataViewUITests;
+			sourceTree = "<group>";
+		};
+		FDA37F8223A0D884000DADED /* Quartz2D */ = {
+			isa = PBXGroup;
+			children = (
+				FDA37F8323A0D884000DADED /* Controller */,
+				FDA37F8423A0D884000DADED /* View */,
+			);
+			path = Quartz2D;
+			sourceTree = "<group>";
+		};
+		FDA37F8323A0D884000DADED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FDA37F8E23A0D8A5000DADED /* YWViewController.h */,
+				FDA37F8F23A0D8A5000DADED /* YWViewController.m */,
+				FDA37F9023A0D8A5000DADED /* YWViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FDA37F8423A0D884000DADED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FDA37F8523A0D884000DADED /* ArcView.h */,
+				FDA37F8623A0D884000DADED /* TwoArcView.m */,
+				FDA37F8723A0D884000DADED /* QuartzView.h */,
+				FDA37F8823A0D884000DADED /* ArcView.m */,
+				FDA37F8923A0D884000DADED /* QuartzView.m */,
+				FDA37F8A23A0D884000DADED /* TwoArcView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FDA37F9323A0DA05000DADED /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FDA37F9423A0DA05000DADED /* UIImage+MJ.h */,
+				FDA37F9523A0DA05000DADED /* StringSize.m */,
+				FDA37F9623A0DA05000DADED /* UIImage+YW.h */,
+				FDA37F9723A0DA05000DADED /* ExtensionButton.h */,
+				FDA37F9823A0DA05000DADED /* YWTool.h */,
+				FDA37F9923A0DA05000DADED /* UIImage+MJ.m */,
+				FDA37F9A23A0DA05000DADED /* ExtensionButton.m */,
+				FDA37F9B23A0DA05000DADED /* UIImage+YW.m */,
+				FDA37F9C23A0DA05000DADED /* StringSize.h */,
+				FDA37F9D23A0DA05000DADED /* YWTool.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,7 +309,7 @@
 			files = (
 				FDA37F5D23A0CAD4000DADED /* LaunchScreen.storyboard in Resources */,
 				FDA37F5A23A0CAD4000DADED /* Assets.xcassets in Resources */,
-				FDA37F5823A0CAD3000DADED /* Main.storyboard in Resources */,
+				FDA37F9223A0D8A5000DADED /* YWViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +334,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDA37F5523A0CAD3000DADED /* ViewController.m in Sources */,
+				FDA37F9123A0D8A5000DADED /* YWViewController.m in Sources */,
+				FDA37FA123A0DA05000DADED /* UIImage+YW.m in Sources */,
+				FDA37F9E23A0DA05000DADED /* StringSize.m in Sources */,
+				FDA37F9F23A0DA05000DADED /* UIImage+MJ.m in Sources */,
+				FDA37FA023A0DA05000DADED /* ExtensionButton.m in Sources */,
+				FDA37F8B23A0D884000DADED /* TwoArcView.m in Sources */,
+				FDA37F8C23A0D884000DADED /* ArcView.m in Sources */,
+				FDA37FA223A0DA05000DADED /* YWTool.m in Sources */,
 				FDA37F4F23A0CAD3000DADED /* AppDelegate.m in Sources */,
+				FDA37F8D23A0D884000DADED /* QuartzView.m in Sources */,
 				FDA37F6023A0CAD4000DADED /* main.m in Sources */,
-				FDA37F5223A0CAD3000DADED /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,14 +380,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FDA37F5623A0CAD3000DADED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FDA37F5723A0CAD3000DADED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FDA37F5B23A0CAD4000DADED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -375,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -440,15 +506,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K9LWN778L7;
+				DEVELOPMENT_TEAM = 9GS5H72VYE;
 				INFOPLIST_FILE = YWDataView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = YW.YWDataView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -457,15 +524,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = K9LWN778L7;
+				DEVELOPMENT_TEAM = 9GS5H72VYE;
 				INFOPLIST_FILE = YWDataView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = YW.YWDataView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

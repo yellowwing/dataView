@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  YWViewController.h
 //  YWDataView
 //
 //  Created by yellow on 2019/12/11.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface YWViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
