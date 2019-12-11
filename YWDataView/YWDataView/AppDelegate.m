@@ -15,6 +15,8 @@
 @implementation AppDelegate
 
 
+#warning - 另外2份项目：建github☑️、创建项目、抄、简书、简历2份
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     return YES;
