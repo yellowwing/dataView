@@ -48,18 +48,24 @@
 
 
 -(void)drawRect:(CGRect)rect{
-    CGFloat padding = 10;
+    //宽度
     CGFloat rectWidth = 80;
+    //获取上下文
     CGContextRef ctx = UIGraphicsGetCurrentContext();
     
-    
+    //设置宽度
     CGContextSetLineWidth(ctx, rectWidth);
     
     //柱体
-    CGContextSetRGBStrokeColor(ctx, 0, 0.8, 0, 1);
+    //可实现渐变颜色
+    CGFloat greenColor = 1 - self.rectGreenHight/rectRedHeight;
+    CGFloat blueColor = self.rectGreenHight/rectRedHeight;
+    CGContextSetRGBStrokeColor(ctx, 0, greenColor, blueColor, 1); //rgb
+    //连线
     CGContextMoveToPoint(ctx, 100, rectRedHeight);
     CGContextAddLineToPoint(ctx, 100, rectRedHeight - self.rectGreenHight);
     
+    //划线
     CGContextStrokePath(ctx);
 
     //画文字
