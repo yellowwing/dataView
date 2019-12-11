@@ -44,8 +44,6 @@
 }
 
 -(void)drawRect:(CGRect)rect{
-    
-    
     CGContextRef ctx = UIGraphicsGetCurrentContext();
     
     CGContextSetLineWidth(ctx, 25);
@@ -60,8 +58,8 @@
 
     CGContextStrokePath(ctx);
     
-
     //第二个覆盖圆
+    //(ctx、圆点x、圆点y、半径、起始角度、增长角度、顺时针或逆时针方向）
     CGContextAddArc(ctx, 75, 75, 55, -M_PI_2, -M_PI_2 + self.increaseAngle, 0);
     
     //    CGContextSetRGBStrokeColor(ctx, 1, 0, 0, 1);
@@ -70,13 +68,11 @@
     CGContextStrokePath(ctx);
     
      //画文字
-    NSString *str = [NSString stringWithFormat:@"你的利润是%d％",self.profit];
+    NSString *str = [NSString stringWithFormat:@"你的利润是%ld％",(long)self.profit];
     NSMutableDictionary *attrs = [NSMutableDictionary dictionary];
     attrs[NSForegroundColorAttributeName] = [UIColor redColor];
     attrs[NSFontAttributeName] = [UIFont boldSystemFontOfSize:12];
     [str drawInRect:CGRectMake(40, 170, 100, 60) withAttributes:attrs];
-
-    
 }
 -(void)start{
     

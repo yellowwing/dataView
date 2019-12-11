@@ -52,9 +52,12 @@
     CGContextRef ctx = UIGraphicsGetCurrentContext();
     
     // 2.画1/4圆
-    CGContextMoveToPoint(ctx, 75, 75);
-    CGContextAddLineToPoint(ctx, 75, 20);
-    CGContextAddArc(ctx, 75, 75, 60, -M_PI_2,  -M_PI_2 + self.increaseAngle, 0);
+    CGContextMoveToPoint(ctx, 75, 75); //由圆心开始
+    CGContextAddLineToPoint(ctx, 75, 20); //向上画
+    
+    //CGContextAddArc(CGContextRef cg_nullable c, CGFloat x, CGFloat y, CGFloat radius, CGFloat startAngle, CGFloat endAngle, int clockwise)
+    CGContextAddArc(ctx, 75, 75, 55, -M_PI_2,  -M_PI_2 + self.increaseAngle, 0);
+    
     CGContextClosePath(ctx);
     
     [YWColor(0, 200, 200) set];
