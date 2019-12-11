@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDA37F4F23A0CAD3000DADED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F4E23A0CAD3000DADED /* AppDelegate.m */; };
+		FDA37F5223A0CAD3000DADED /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F5123A0CAD3000DADED /* SceneDelegate.m */; };
+		FDA37F5523A0CAD3000DADED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F5423A0CAD3000DADED /* ViewController.m */; };
+		FDA37F5823A0CAD3000DADED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA37F5623A0CAD3000DADED /* Main.storyboard */; };
+		FDA37F5A23A0CAD4000DADED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA37F5923A0CAD4000DADED /* Assets.xcassets */; };
+		FDA37F5D23A0CAD4000DADED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA37F5B23A0CAD4000DADED /* LaunchScreen.storyboard */; };
+		FDA37F6023A0CAD4000DADED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F5F23A0CAD4000DADED /* main.m */; };
+		FDA37F6A23A0CAD4000DADED /* YWDataViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F6923A0CAD4000DADED /* YWDataViewTests.m */; };
+		FDA37F7523A0CAD4000DADED /* YWDataViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA37F7423A0CAD4000DADED /* YWDataViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDA37F6623A0CAD4000DADED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA37F4223A0CAD3000DADED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA37F4923A0CAD3000DADED;
+			remoteInfo = YWDataView;
+		};
+		FDA37F7123A0CAD4000DADED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA37F4223A0CAD3000DADED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA37F4923A0CAD3000DADED;
+			remoteInfo = YWDataView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDA37F4A23A0CAD3000DADED /* YWDataView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWDataView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA37F4D23A0CAD3000DADED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDA37F4E23A0CAD3000DADED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDA37F5023A0CAD3000DADED /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FDA37F5123A0CAD3000DADED /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FDA37F5323A0CAD3000DADED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDA37F5423A0CAD3000DADED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDA37F5723A0CAD3000DADED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDA37F5923A0CAD4000DADED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDA37F5C23A0CAD4000DADED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDA37F5E23A0CAD4000DADED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA37F5F23A0CAD4000DADED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDA37F6523A0CAD4000DADED /* YWDataViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWDataViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA37F6923A0CAD4000DADED /* YWDataViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWDataViewTests.m; sourceTree = "<group>"; };
+		FDA37F6B23A0CAD4000DADED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDA37F7023A0CAD4000DADED /* YWDataViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWDataViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA37F7423A0CAD4000DADED /* YWDataViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWDataViewUITests.m; sourceTree = "<group>"; };
+		FDA37F7623A0CAD4000DADED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA37F4723A0CAD3000DADED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA37F6223A0CAD4000DADED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA37F6D23A0CAD4000DADED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDA37F4123A0CAD3000DADED = {
+			isa = PBXGroup;
+			children = (
+				FDA37F4C23A0CAD3000DADED /* YWDataView */,
+				FDA37F6823A0CAD4000DADED /* YWDataViewTests */,
+				FDA37F7323A0CAD4000DADED /* YWDataViewUITests */,
+				FDA37F4B23A0CAD3000DADED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA37F4B23A0CAD3000DADED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA37F4A23A0CAD3000DADED /* YWDataView.app */,
+				FDA37F6523A0CAD4000DADED /* YWDataViewTests.xctest */,
+				FDA37F7023A0CAD4000DADED /* YWDataViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA37F4C23A0CAD3000DADED /* YWDataView */ = {
+			isa = PBXGroup;
+			children = (
+				FDA37F4D23A0CAD3000DADED /* AppDelegate.h */,
+				FDA37F4E23A0CAD3000DADED /* AppDelegate.m */,
+				FDA37F5023A0CAD3000DADED /* SceneDelegate.h */,
+				FDA37F5123A0CAD3000DADED /* SceneDelegate.m */,
+				FDA37F5323A0CAD3000DADED /* ViewController.h */,
+				FDA37F5423A0CAD3000DADED /* ViewController.m */,
+				FDA37F5623A0CAD3000DADED /* Main.storyboard */,
+				FDA37F5923A0CAD4000DADED /* Assets.xcassets */,
+				FDA37F5B23A0CAD4000DADED /* LaunchScreen.storyboard */,
+				FDA37F5E23A0CAD4000DADED /* Info.plist */,
+				FDA37F5F23A0CAD4000DADED /* main.m */,
+			);
+			path = YWDataView;
+			sourceTree = "<group>";
+		};
+		FDA37F6823A0CAD4000DADED /* YWDataViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA37F6923A0CAD4000DADED /* YWDataViewTests.m */,
+				FDA37F6B23A0CAD4000DADED /* Info.plist */,
+			);
+			path = YWDataViewTests;
+			sourceTree = "<group>";
+		};
+		FDA37F7323A0CAD4000DADED /* YWDataViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA37F7423A0CAD4000DADED /* YWDataViewUITests.m */,
+				FDA37F7623A0CAD4000DADED /* Info.plist */,
+			);
+			path = YWDataViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA37F4923A0CAD3000DADED /* YWDataView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA37F7923A0CAD4000DADED /* Build configuration list for PBXNativeTarget "YWDataView" */;
+			buildPhases = (
+				FDA37F4623A0CAD3000DADED /* Sources */,
+				FDA37F4723A0CAD3000DADED /* Frameworks */,
+				FDA37F4823A0CAD3000DADED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YWDataView;
+			productName = YWDataView;
+			productReference = FDA37F4A23A0CAD3000DADED /* YWDataView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDA37F6423A0CAD4000DADED /* YWDataViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA37F7C23A0CAD4000DADED /* Build configuration list for PBXNativeTarget "YWDataViewTests" */;
+			buildPhases = (
+				FDA37F6123A0CAD4000DADED /* Sources */,
+				FDA37F6223A0CAD4000DADED /* Frameworks */,
+				FDA37F6323A0CAD4000DADED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA37F6723A0CAD4000DADED /* PBXTargetDependency */,
+			);
+			name = YWDataViewTests;
+			productName = YWDataViewTests;
+			productReference = FDA37F6523A0CAD4000DADED /* YWDataViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDA37F6F23A0CAD4000DADED /* YWDataViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA37F7F23A0CAD4000DADED /* Build configuration list for PBXNativeTarget "YWDataViewUITests" */;
+			buildPhases = (
+				FDA37F6C23A0CAD4000DADED /* Sources */,
+				FDA37F6D23A0CAD4000DADED /* Frameworks */,
+				FDA37F6E23A0CAD4000DADED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA37F7223A0CAD4000DADED /* PBXTargetDependency */,
+			);
+			name = YWDataViewUITests;
+			productName = YWDataViewUITests;
+			productReference = FDA37F7023A0CAD4000DADED /* YWDataViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA37F4223A0CAD3000DADED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = YW;
+				TargetAttributes = {
+					FDA37F4923A0CAD3000DADED = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					FDA37F6423A0CAD4000DADED = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = FDA37F4923A0CAD3000DADED;
+					};
+					FDA37F6F23A0CAD4000DADED = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = FDA37F4923A0CAD3000DADED;
+					};
+				};
+			};
+			buildConfigurationList = FDA37F4523A0CAD3000DADED /* Build configuration list for PBXProject "YWDataView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDA37F4123A0CAD3000DADED;
+			productRefGroup = FDA37F4B23A0CAD3000DADED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA37F4923A0CAD3000DADED /* YWDataView */,
+				FDA37F6423A0CAD4000DADED /* YWDataViewTests */,
+				FDA37F6F23A0CAD4000DADED /* YWDataViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA37F4823A0CAD3000DADED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA37F5D23A0CAD4000DADED /* LaunchScreen.storyboard in Resources */,
+				FDA37F5A23A0CAD4000DADED /* Assets.xcassets in Resources */,
+				FDA37F5823A0CAD3000DADED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA37F6323A0CAD4000DADED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA37F6E23A0CAD4000DADED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA37F4623A0CAD3000DADED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA37F5523A0CAD3000DADED /* ViewController.m in Sources */,
+				FDA37F4F23A0CAD3000DADED /* AppDelegate.m in Sources */,
+				FDA37F6023A0CAD4000DADED /* main.m in Sources */,
+				FDA37F5223A0CAD3000DADED /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA37F6123A0CAD4000DADED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA37F6A23A0CAD4000DADED /* YWDataViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA37F6C23A0CAD4000DADED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA37F7523A0CAD4000DADED /* YWDataViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDA37F6723A0CAD4000DADED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA37F4923A0CAD3000DADED /* YWDataView */;
+			targetProxy = FDA37F6623A0CAD4000DADED /* PBXContainerItemProxy */;
+		};
+		FDA37F7223A0CAD4000DADED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA37F4923A0CAD3000DADED /* YWDataView */;
+			targetProxy = FDA37F7123A0CAD4000DADED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDA37F5623A0CAD3000DADED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA37F5723A0CAD3000DADED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDA37F5B23A0CAD4000DADED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA37F5C23A0CAD4000DADED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDA37F7723A0CAD4000DADED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDA37F7823A0CAD4000DADED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDA37F7A23A0CAD4000DADED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LWN778L7;
+				INFOPLIST_FILE = YWDataView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YW.YWDataView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDA37F7B23A0CAD4000DADED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LWN778L7;
+				INFOPLIST_FILE = YWDataView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YW.YWDataView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDA37F7D23A0CAD4000DADED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LWN778L7;
+				INFOPLIST_FILE = YWDataViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YW.YWDataViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YWDataView.app/YWDataView";
+			};
+			name = Debug;
+		};
+		FDA37F7E23A0CAD4000DADED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LWN778L7;
+				INFOPLIST_FILE = YWDataViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YW.YWDataViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YWDataView.app/YWDataView";
+			};
+			name = Release;
+		};
+		FDA37F8023A0CAD4000DADED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LWN778L7;
+				INFOPLIST_FILE = YWDataViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YW.YWDataViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YWDataView;
+			};
+			name = Debug;
+		};
+		FDA37F8123A0CAD4000DADED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9LWN778L7;
+				INFOPLIST_FILE = YWDataViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YW.YWDataViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YWDataView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA37F4523A0CAD3000DADED /* Build configuration list for PBXProject "YWDataView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA37F7723A0CAD4000DADED /* Debug */,
+				FDA37F7823A0CAD4000DADED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA37F7923A0CAD4000DADED /* Build configuration list for PBXNativeTarget "YWDataView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA37F7A23A0CAD4000DADED /* Debug */,
+				FDA37F7B23A0CAD4000DADED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA37F7C23A0CAD4000DADED /* Build configuration list for PBXNativeTarget "YWDataViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA37F7D23A0CAD4000DADED /* Debug */,
+				FDA37F7E23A0CAD4000DADED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA37F7F23A0CAD4000DADED /* Build configuration list for PBXNativeTarget "YWDataViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA37F8023A0CAD4000DADED /* Debug */,
+				FDA37F8123A0CAD4000DADED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDA37F4223A0CAD3000DADED /* Project object */;
+}
